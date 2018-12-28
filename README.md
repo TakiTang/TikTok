@@ -3,9 +3,9 @@
 
 ## 证书
 * 安装根证书：[点击安装证书](https://github.com/Choler/Surge/raw/master/Thor%20SSL%20CA.cer)
-* 信任根证书：手机设置-通用-关于本机-证书信任设置 打开按钮
+* 信任根证书：手机设置-通用-关于本机-证书信任设置 打开
 
-## 规则
+## 托管
 配置文件链接 `https://github.com/Choler/Surge/raw/master/Tiktok.conf`
 
 ### 必要
@@ -19,9 +19,18 @@
 * 如需保存点击最下方Export 点击储存视频
 * 此时视频就去水印保存到相册
 
+Rule for Surge3:
 ```
 [URL Rewrite]
-(?<=&carrier_region=)CN(?=&is_my_cn=1) HK 307
+(?<=&carrier_region=)CN(?=&) JP 307
+
+[MITM]
+hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com, *.akamaized.net
+```
+Rule for Quantumult:
+```
+[REWRITE]
+(?<=&carrier_region=)CN(?=&is_my_cn=1) url 307 JP
 
 [MITM]
 hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com, *.akamaized.net
