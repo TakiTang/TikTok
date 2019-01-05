@@ -4,7 +4,8 @@
 - [x] Tiktok登入
 - [x] Tiktok点赞
 - [x] Tiktok发布
-- [ ] Tiktok下载
+- [x] Tiktok下载
+- [x] Tiktok评论
 
 ## 规则
 Rule for Surge3:
