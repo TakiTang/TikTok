@@ -1,3 +1,11 @@
+<h1 align="center">
+  <img src="http://t.cn/EGaZFJB" alt="TikTok" width="233">
+  <br>
+  TikTok
+  <br>
+</h1>
+
+<h4 align="center">Tiktok's best rules.</h4>
 # 简介
 `Rewrite` 和 `MitM` 同时启用，规则方能生效！
 - [x] Tiktok观看
