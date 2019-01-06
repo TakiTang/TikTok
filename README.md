@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="http://t.cn/EGaZFJB" alt="TikTok" width="233">
+  <img src="https://i.loli.net/2019/01/06/5c315fe70c2b7.jpg" alt="TikTok" width="233">
   <br>
   TikTok
   <br>
