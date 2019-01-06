@@ -1,10 +1,6 @@
 <h1 align="center">
   <img src="https://i.loli.net/2019/01/06/5c315fe70c2b7.jpg" alt="TikTok" width="233">
-  <br>
-  TikTok
-  <br>
 </h1>
-
 <h4 align="center">Tiktok's best rules.</h4>
 
 # 简介
