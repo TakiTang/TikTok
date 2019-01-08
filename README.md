@@ -18,7 +18,7 @@ Rule for Surge3:
 (?<=&carrier_region=)CN(?=&is_my_cn=1) JP 307
 
 [MITM]
-hostname = *.tiktokv.com, *.musical.ly
+hostname = api*.tiktokv.com, api*.musical.ly
 ```
 
 Rule for Quantumult:
@@ -27,7 +27,7 @@ Rule for Quantumult:
 (?<=&carrier_region=)CN(?=&is_my_cn=1) url 307 JP
 
 [MITM]
-hostname = *.tiktokv.com, *.musical.ly
+hostname = api*.tiktokv.com, api*.musical.ly
 ```
 
 ## 托管
