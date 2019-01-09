@@ -31,7 +31,7 @@ hostname = api*.tiktokv.com, api*.musical.ly
 ```
 
 ## 托管
-配置链接 `https://github.com/Choler/Surge/raw/master/Tiktok.conf`
+配置链接 `https://github.com/Choler/TikTok/raw/master/Tiktok.conf`
 
 ## 证书
 * 安装根证书：[点击安装](https://raw.githubusercontent.com/Choler/Surge/master/Thor%20SSL%20CA.cer) (Thor SSL CA 18-05-20 13:14)
