@@ -32,9 +32,7 @@ hostname = api*.tiktokv.com, api*.musical.ly
 
 ## 托管
 配置链接 `https://github.com/Choler/TikTok/raw/master/Tiktok.conf`
-
-## 证书
-* 安装根证书：[点击安装](https://raw.githubusercontent.com/Choler/Surge/master/Thor%20SSL%20CA.cer) (Thor SSL CA 18-05-20 13:14)
+* 安装根证书：[点击安装](https://raw.githubusercontent.com/Choler/TikTok/master/Thor%20SSL%20CA.cer) (Thor SSL CA 18-05-20 13:14)
 * 信任根证书：手机设置-通用-关于本机-证书信任设置-针对根证书启用完全信任
 
 ### 去水印
