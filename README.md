@@ -32,11 +32,12 @@ hostname = api*.tiktokv.com, api*.musical.ly
 
 ## 托管
 [托管配置](https://github.com/Choler/TikTok/raw/master/Tiktok.conf) `https://github.com/Choler/TikTok/raw/master/Tiktok.conf`
+
 * 安装根证书：[点击安装](https://raw.githubusercontent.com/Choler/TikTok/master/Thor%20SSL%20CA.cer) (Thor SSL CA 18-05-20 13:14)
 * 信任根证书：设置-通用-关于本机-证书信任设置-针对根证书启用完全信任
 
 ### 去水印
-* 需要时打开`抓取流量`
+* 需要时打开`抓取流量`开关
 * 在`最近的请求`中都为缓存视频
 * 点击请求链接再点`响应`可查看视频内容
 * 如需保存点击最下方`导出`储存视频到相册
