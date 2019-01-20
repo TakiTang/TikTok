@@ -31,7 +31,7 @@ hostname = api*.tiktokv.com, api*.musical.ly
 ```
 
 ## 托管
-[Beta](https://github.com/Choler/TikTok/raw/master/TikTok%20Beta.conf) `https://github.com/Choler/TikTok/raw/master/TikTok%20Beta.conf`
+[Beta](https://github.com/Choler/TikTok/raw/master/TikTok%20Beta.conf) `https://github.com/Choler/TikTok/raw/master/TikTok%20Beta.conf`   
 [托管配置](https://github.com/Choler/TikTok/raw/master/Tiktok.conf) `https://github.com/Choler/TikTok/raw/master/Tiktok.conf`
 
 * 安装根证书：[点击安装](https://raw.githubusercontent.com/Choler/TikTok/master/Thor%20SSL%20CA.cer) (Thor SSL CA 18-05-20 13:14)
