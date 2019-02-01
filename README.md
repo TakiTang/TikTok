@@ -19,8 +19,8 @@ hostname = api*.tiktokv.com
 Rule for Quantumult:
 ```
 [REWRITE]
-(.*video_id=\w{32})(.*watermark=)(.*) URL 302 $1
-(?<=(carrier|account|sys)_region=)CN URL 307 JP
+(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+(?<=(carrier|account|sys)_region=)CN url 307 JP
 
 [MITM]
 hostname = api*.tiktokv.com
