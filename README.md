@@ -9,19 +9,21 @@
 Rule for Surge3:
 ```
 [URL Rewrite]
-(?<=&carrier_region=)CN(?=&is_my_cn=1) JP 307
+(.*video_id=\w{32})(.*watermark=)(.*) $1 302
+(?<=(carrier|account|sys)_region=)CN JP 307
 
 [MITM]
-hostname = api*.tiktokv.com, api*.musical.ly
+hostname = api*.tiktokv.com
 ```
 
 Rule for Quantumult:
 ```
 [REWRITE]
-(?<=&carrier_region=)CN(?=&is_my_cn=1) url 307 JP
+(.*video_id=\w{32})(.*watermark=)(.*) URL 302 $1
+(?<=(carrier|account|sys)_region=)CN URL 307 JP
 
 [MITM]
-hostname = api*.tiktokv.com, api*.musical.ly
+hostname = api*.tiktokv.com
 ```
 
 ## 托管
