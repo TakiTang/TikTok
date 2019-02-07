@@ -3,9 +3,11 @@
 </h1>
 
 # 简介
+`api*.musical.ly` 兼容美区TikTok播放
+`api.huoshan.com` 火山短视频去水印下载
+`api.amemv.com` `aweme.snssdk.com` 抖音去水印下载
 `Rewrite` 和 `MitM` 同时启用，规则方能生效！   
 `DOMAIN-SUFFIX,tiktokv.com,Proxy` 解决下载超时   
-`(.*video_id=\w{32})(.*watermark=)(.*) $1 302` 视频去水印下载
 
 ## 规则
 Rule for Surge3:
