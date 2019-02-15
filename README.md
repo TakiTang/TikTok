@@ -3,11 +3,12 @@
 </h1>
 
 # 简介
-`api*.musical.ly` 兼容美区TikTok播放   
-`api.huoshan.com` 火山短视频去水印下载   
-`api.amemv.com` `aweme.snssdk.com` 抖音去水印下载   
-`Rewrite` 和 `MitM` 同时启用，规则方能生效！   
-`DOMAIN-SUFFIX,tiktokv.com,Proxy` 解决下载超时   
+`api*.tiktokv.com` 兼容TikTok ，`api*.musical.ly` 兼容美区TikTok     
+`api*.amemv.com` `aweme*.snssdk.com` 抖音短视频去水印下载   
+  
+## 下载超时
+`DOMAIN-SUFFIX,tiktokv.com,Proxy`   
+`DOMAIN-SUFFIX,musical.ly,Proxy`
 
 ## 规则
 Rule for Surge3:
@@ -15,9 +16,6 @@ Rule for Surge3:
 [URL Rewrite]
 (.*video_id=\w{32})(.*watermark=)(.*) $1 302
 (?<=(carrier|account|sys)_region=)CN JP 307
-
-[MITM]
-hostname = api*.tiktokv.com
 ```
 
 Rule for Quantumult:
@@ -26,8 +24,6 @@ Rule for Quantumult:
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 (?<=(carrier|account|sys)_region=)CN url 307 JP
 
-[MITM]
-hostname = api*.tiktokv.com
 ```
 
 ## 托管
@@ -35,9 +31,3 @@ hostname = api*.tiktokv.com
 
 * 安装根证书：[点击安装](https://raw.githubusercontent.com/Choler/TikTok/master/Thor%20SSL%20CA.cer) (Thor SSL CA 18-05-20 13:14)
 * 信任根证书：设置-通用-关于本机-证书信任设置-针对根证书启用完全信任
-
-### 去水印
-* 需要时打开`抓取流量`开关
-* 在`最近的请求`中都为缓存视频
-* 点击请求链接再点`响应`可查看视频内容
-* 如需保存点击最下方`导出`储存视频到相册
