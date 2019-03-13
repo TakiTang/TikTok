@@ -10,7 +10,7 @@ DOMAIN,api-h2.tiktokv.com,PROXY
 (?<=(carrier|account|sys)_region=)CN JP 307
 
 [MITM]
-hostname =api*.tiktokv.com
+hostname = api*.tiktokv.com
 ca-passphrase = 123456
-ca-p12 = MIIKKgIBAzCCCfQGCSqGSIb3DQ…..
+ca-p12 = MIIKKgIBAzCCCfQGCSqGSIb3DQ…
 ```
